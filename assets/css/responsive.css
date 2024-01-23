@@ -1,0 +1,56 @@
+@media (max-width:1000px) {
+
+    .services .box-container .box:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    nav {
+        background: var(--green);
+    }
+
+    nav .navbar .togglebtn {
+        display: block;
+    }
+
+    nav .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background: var(--green);
+        padding: 0 9%;
+
+    }
+
+    nav .navbar ul li a {
+        padding: 12px 8px;
+        border-radius: 8px;
+        display: block;
+
+
+    }
+
+    nav .navbar ul li a:hover {
+        background: var(--yellow);
+        color: var(--green);
+    }
+
+    nav .navbar #toggle:checked~ul {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .hero::after {
+        display: none;
+    }
+
+    nav .title {
+        display: none;
+    }
+
+}
